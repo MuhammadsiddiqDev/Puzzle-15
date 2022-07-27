@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:layout_height="match_parent"
+    android:background="@drawable/wode">
+
+
+    <TextView
+        android:text="\n\n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:text="   Setting volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFB300"/>
+
+    <Switch
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sound_switch"
+        android:text="@string/Sound_on"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textColor="#FFB300"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:text="   Setting music"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFB300"/>
+
+    <Switch
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/music_switch"
+        android:text="@string/Music_on"
+        android:textSize="30dp"
+        android:textColor="#FFB300"/>
+
+    <TextView
+        android:text="\n\n\n\n\n\n\n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<!--    <Switch-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/night_switch"-->
+<!--        android:text="@string/Night_off"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textColor="#FFB300"/>-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Themes"
+        android:textColor="#FFB300"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:weightSum="5"
+        android:layout_height="130dp">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:id="@+id/theme1"
+            android:buttonTintMode="src_atop"
+            android:layout_height="match_parent"
+            android:background="@drawable/baba"/>
+        <RadioButton
+            android:id="@+id/theme2"
+            android:layout_margin="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:buttonTintMode="src_atop"
+            android:layout_height="match_parent"
+            android:background="@drawable/cool"
+            tools:ignore="InvalidId" />
+        <RadioButton
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:id="@+id/theme3"
+            android:layout_margin="2dp"
+            android:buttonTintMode="src_atop"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/splashs"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:buttonTintMode="src_atop"
+            android:id="@+id/theme4"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/wode"
+            />
+        <RadioButton
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:id="@+id/theme5"
+            android:layout_margin="2dp"
+            android:buttonTintMode="src_atop"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/leaves"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:id="@+id/clear_data"
+        android:textSize="15dp"
+        android:textColor="#FFB300"
+        android:background="@drawable/timer"
+        android:layout_margin="25dp"
+        android:padding="15dp"/>
+
+
+</LinearLayout>

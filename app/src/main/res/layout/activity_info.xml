@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content"
+    android:layout_height="match_parent"
+    android:background="@drawable/tmb">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="21dp"
+                android:layout_margin="20dp"
+                android:textColor="#FFB300"
+                android:text="\nName:Puzzle 15\n\nThis game is called Puzzle 15.\nThis game helps to develop the brain   and think fast.\nThe game is enriched with various   themes and music.\nPlay and develop your brain.\n\n
+  Rules of the game:\nThe game consists of a 4x4 matrix \nwith fifteen numbers and one empty button.
+To win the game
+using this space, you will need to place the numbers in order, starting at the top.\n\n\n
+\nAuthor:Muhammadsiddiq Ahmad
+\nDate:01.25.2022\n\nFor suggestions and complaints
+\nTeleegram:@Muhammadsiddiq1997
+\nFacebook:Muhammadsiddiq Ahmad
+"/>
+
+        </LinearLayout>

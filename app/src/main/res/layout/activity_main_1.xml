@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaves"
+    android:id="@+id/content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center_vertical"
+        android:text="   Puzzle 15"
+        android:textColor="#FB8C00"
+        android:textSize="70dp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_above="@id/result_button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/timer"
+        android:text="Start game"
+        android:textColor="#FFB300"
+        android:textSize="25dp" />
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/result_button"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:text="result game"
+        android:textColor="#FFB300"
+        android:layout_below="@id/result_button"
+        android:layout_centerInParent="true"
+        android:background="@drawable/timer"
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:id="@+id/setting_button"
+        android:layout_height="70dp"
+        android:layout_below="@id/result_button"
+        android:textColor="#FFB300"
+        android:layout_centerInParent="true"
+        android:background="@drawable/timer"
+        android:text="Setting game"
+        android:textSize="25dp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/info_button"
+        android:textColor="#FFB300"
+        android:layout_below="@id/setting_button"
+        android:layout_height="70dp"
+        android:text="Info"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/timer"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/exit_button"
+        android:textColor="#FFB300"
+        android:layout_below="@id/info_button"
+        android:layout_height="70dp"
+        android:text="Exit game"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/timer"
+        />
+</RelativeLayout>

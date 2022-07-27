@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Numbers Puzzle</string>
+    <string name="Sound_on">"  Sound_off"</string>
+    <string name="Sound_off">"  Sound_on"</string>
+    <string name="Music_on">"  Music_off"</string>
+    <string name="Music_off">"  Music_on"</string>
+    <string name="Night_on">"  Night_off"</string>
+    <string name="Night_off">"  Night_on"</string>
+</resources>
